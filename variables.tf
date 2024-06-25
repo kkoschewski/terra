@@ -5,17 +5,17 @@ variable "TF_VAR_IONOS_TOKEN" {
 }
 
 
-variable "TF_VAR_AWS_ACCESS_KEY_ID" {
-  description = "The AWS access key ID"
-  type        = string
+# variable "TF_VAR_AWS_ACCESS_KEY_ID" {
+#   description = "The AWS access key ID"
+#   type        = string
 
-}
+# }
 
-variable "AWS_SECRET_ACCESS_KEY" {
-  description = "The AWS secret access key"
-  type        = string
+# variable "AWS_SECRET_ACCESS_KEY" {
+#   description = "The AWS secret access key"
+#   type        = string
 
-}
+# }
 
 variable "cluster_name" {
   description = "The name of the k8s cluster"
