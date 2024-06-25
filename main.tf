@@ -12,7 +12,8 @@ resource "ionoscloud_datacenter" "ops-datacenter" {
 #     day_of_the_week = "Sunday"
 #     time            = "02:00:00Z"
 #   }
-# }
+# }#
+
 
 
 # resource "ionoscloud_k8s_node_pool" "example" {
