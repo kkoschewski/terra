@@ -1,11 +1,11 @@
-variable "IONOS_TOKEN" {
+variable "TF_VAR_IONOS_TOKEN" {
   description = "The IonosCloud API token"
   type        = string
   
 }
 
 
-variable "AWS_ACCESS_KEY_ID" {
+variable "TF_VAR_AWS_ACCESS_KEY_ID" {
   description = "The AWS access key ID"
   type        = string
 
