@@ -5,14 +5,14 @@ resource "ionoscloud_datacenter" "ops-datacenter" {
 
 }
 
-resource "ionoscloud_k8s_cluster" "mein_cluster" {
-  name        = var.cluster_name
-  k8s_version = var.k8s_version
-  maintenance_window {
-    day_of_the_week = "Sunday"
-    time            = "02:00:00Z"
-  }
-}
+# resource "ionoscloud_k8s_cluster" "mein_cluster" {
+#   name        = var.cluster_name
+#   k8s_version = var.k8s_version
+#   maintenance_window {
+#     day_of_the_week = "Sunday"
+#     time            = "02:00:00Z"
+#   }
+# }
 
 
 # resource "ionoscloud_k8s_node_pool" "example" {
