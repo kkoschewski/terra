@@ -34,7 +34,6 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.TF_VAR_AWS_ACCESS_KEY_ID}}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.TF_VAR_AWS_SECRET_ACCESS_KEY }}
           IONOS_TOKEN: ${{ secrets.TF_VAR_IONOS_TOKEN }}
-        run: terraform apply -auto-approve
+        run: terraform apply 
 
-      - name: Terraform destroy
-        run: terraform destroy -auto-approve
+
