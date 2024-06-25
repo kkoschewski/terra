@@ -1,4 +1,8 @@
-
+variable "IONOS_TOKEN" {
+  description = "Token for IONOS Cloud provider authentication"
+  type        = string
+  sensitive   = true
+}
 # variable "TF_VAR_AWS_ACCESS_KEY_ID" {
 #   description = "The AWS access key ID"
 #   type        = string
