@@ -7,9 +7,9 @@ terraform {
   }
 }
 
-provider "ionoscloud" {
-  token = var.IONOS_TOKEN
-}
+# provider "ionoscloud" {
+#   token = var.IONOS_TOKEN
+# }
 
 
 provider "aws" {
